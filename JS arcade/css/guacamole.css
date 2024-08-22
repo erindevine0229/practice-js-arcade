@@ -1,0 +1,37 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+ul li {
+    font-size: 30px;
+    list-style: none;
+}
+
+
+.grid-box {
+    height: 400px;
+    width: 400px;
+    border: 10px solid black;
+    background-color: aqua;
+
+}
+
+#game-board {
+   height: 1260px;
+   width:1260px; 
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 auto;
+}
+
+
